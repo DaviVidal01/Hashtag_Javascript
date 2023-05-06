@@ -17,3 +17,9 @@ function conversãoC_F(celsius){
 }
 
 //Resolução do Exercício 4
+function produtoValorImposto(produto){
+    const produtoComImposto = produto * 1.08875;
+    console.log(`O valor a ser pago é ${produtoComImposto}`);
+}
+
+//FIM
