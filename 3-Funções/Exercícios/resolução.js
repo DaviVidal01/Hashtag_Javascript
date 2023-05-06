@@ -11,3 +11,9 @@ function calcularMedias(mediaDasNotas, p4){
 }
 
 //Resolução do Exercício 3
+function conversãoC_F(celsius){
+    farenheit = (9/5) * celsius + 32;
+    console.log(`A temperatura corresponde em Farenheit é de ${farenheit}ºF`);
+}
+
+//Resolução do Exercício 4
