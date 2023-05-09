@@ -24,8 +24,8 @@ const calculateButton = document.getElementById('calculate-hypotenuse');
 const answerDiv = document.getElementById('answer');
 
 function onCalculateButtonClick() {
-  const firstSide = firstSideRef.value;
-  const secondSide = secondSideRef.value;
+  const firstSide = parseInt(firstSideRef.value);
+  const secondSide = parseInt(secondSideRef.value);
   // console.log('function executed');
   answerDiv.classList.remove('hidden-element');
   answerDiv.innerHTML = `A hipotenusa de um triangulo de lados ${firstSide} e ${secondSide} é: ${calculatePythagoras(
